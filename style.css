@@ -1,0 +1,586 @@
+
+
+/* -------MEU HEADER/BANNER ---------------------------------------------------------------------------------*/
+
+.title0 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(217 81 53);
+  height: 4.4rem;
+}
+.title1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000000;
+  height: 4.4rem;
+}
+/* -------ICONE NINJA/LOGOUT--------------------------------------------------------------------------------------- */
+.logoUser{
+  width: 3rem;
+  }
+.logokabum {
+  height: 84px;
+  cursor: pointer;
+  padding-left: 1rem;
+}
+
+#btnLog{
+  display: flex;
+  align-items: center;
+  padding-right: 4rem;
+}
+.btnLogout{
+  margin-left: 1rem;
+  width: 60px;
+  background-color: #3C0B08;
+  color: white;
+  border: 1px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #1b1b1b;
+  padding: 0px;
+  text-decoration: none;
+  font-size: small;
+}
+.btnLogout1{
+  margin-left: 1rem;
+  width: 60px;
+  background: rgb(217 81 53);
+  color: white;
+  border: 1px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 13px #f44f03;
+  padding: 0px;
+  text-decoration: none;
+  font-size: small;
+}
+#saudacao{
+  margin-left: 1rem;
+  margin-top: 20px;
+}
+.saudacao1{
+  margin-left: 1rem;
+  margin-top: 20px;
+  color: white;
+}
+
+/* -------NAVIGATION--------------------------------------------------------------------------------------- */
+
+.nav {
+  background: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.nav .link {
+  position: relative;
+  flex: 1;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.nav .link a {
+  position: relative;
+  color: #f5f5f5;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-text-stroke: thin;
+}
+.nav1 {
+  background: rgb(217 81 53);
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.nav1 .link {
+  position: relative;
+  flex: 1;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.nav1 .link a {
+  position: relative;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-text-stroke: thin;
+}
+
+/* -------MENU PAG/IMAGEM--------------------------------------------------------------------------------------- */
+
+#kabumicon {
+  display: flex;
+}
+
+#kabumsport {
+  width: 15rem;
+  object-fit: cover;
+  object-position: 7px -122px;
+  margin-top: 3rem;
+}
+
+/* -------BODY/MODAL/PAG--------------------------------------------------------------------------------------- */
+
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.modal-dialogend {
+  max-width: 54rem;
+  margin: 1.75rem auto;
+}
+
+.modal-footerEnd {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between !important;
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-bottom-left-radius: calc(0.3rem - 1px);
+}
+
+.confirmarEnd,
+.fecharEnd {
+  background-color: #961D14;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 93px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #222222;
+  padding: 6px
+}
+
+.fecharEnd {
+  background-color: #3C0B08;
+  box-shadow: 0 0 5px #1b1b1b;
+}
+
+.fecharEndlist {
+  background-color: #3C0B08;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 25rem;
+  cursor: pointer;
+  box-shadow: 0 0 5px #000000;
+  padding: 5px;
+}
+
+main div,
+.formu {
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main div form {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#listagemForm {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 0px;
+  padding-top: 0.5rem;
+}
+
+#listagemend {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 20px;
+  padding-top: 0.5rem;
+}
+
+main div p {
+  display: inline-block;
+  padding-left: 20px;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  bottom: 10px;
+  bottom: 04px;
+}
+
+main div form label {
+  display: inline-block;
+  margin-top: 14px;
+  color: rgb(2, 1, 1);
+  position: relative;
+}
+
+main div form input {
+  width: 20rem;
+  background: transparent;
+  border-bottom: 1px solid tomato;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  color: rgb(0, 0, 0);
+  outline: none;
+  padding-top: 3px;
+}
+
+#ativobox {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+#ativo {
+  width: 17px;
+}
+
+#ativotext {
+  padding-left: 11px;
+
+}
+
+main div .botao {
+  height: 30px;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.atualizarBtn,
+.confirmarBtn {
+  width: 90px;
+  background: #C3251A;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  top: 20px;
+}
+
+.atualizarBtn:hover,
+.confirmarBtn:hover {
+  background-color: rgb(158, 38, 4);
+  cursor: pointer;
+}
+
+.cancelarBtn {
+  width: 90px;
+  background-color: #3C0B08;
+  padding: 5px;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 20px;
+  top: 20px;
+}
+
+.cancelarBtn:hover {
+  background-color: #3C0B08;
+  cursor: pointer;
+}
+
+/* MINHA LISTA */
+#cadCliente {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  font-family: sans-serif;
+  text-align: left;
+  margin: 0px auto;
+}
+#cadBtn,#botaoCad{
+  display: flex;
+  margin-left: 5.3rem;
+}
+#cadbutton {
+  margin-top: 1rem;
+  background: rgb(217 81 53);
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 35px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 6px;
+  text-decoration: none;
+}
+.confirmarEndbtn{
+  width: 90px;
+  background: #C3251A;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  top: 20px;
+}
+#editbutton{
+  width: 82px;
+  background: #C3251A;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 6px;
+  text-decoration: none;
+}
+#editbuttonEnd{
+  width: 57px;
+  background: #C3251A;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 6px;
+  text-decoration: none;
+}
+#endbutton {
+  width: 60px;
+  background-color: #961D14;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.prinbutton1 {
+  width: 78px;
+  background-color: rgb(167, 0, 0);
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.prinbutton2 {
+  width: 78px;
+  background-color: rgb(0, 78, 0);
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.endListbutton,
+.endListbutton:hover {
+  width: 78px;
+  background: #69140E;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 6px;
+  text-decoration: none;
+}
+
+#emailTab{
+  padding-left: 4rem;
+}
+
+#acaoTab{
+  padding-left: 9%;
+}
+.user_id{
+  display: none;
+}
+
+#deletebuttonEnd {
+  width: 60px;
+  background-color: #3C0B08;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 6px;
+  text-decoration: none;
+} 
+.deletebutton0{
+  width: 78px;
+  background-color: rgb(167, 0, 0);
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 5px;
+  text-decoration: none;
+  display: none;
+}
+.deletebutton1{
+  width: 78px;
+  background-color: rgb(0, 78, 0);
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 5px;
+  text-decoration: none;
+  display: none;
+}
+table th {
+  color: rgb(217 81 53);
+  padding: 29px;
+  padding-bottom: 1px;
+  text-shadow: 2px 3px 4px #00000057;
+}
+
+table td {
+  text-align: center;
+  color: black;
+  padding: 3px;
+  padding-right: 5px;
+  text-shadow: 1px 3px 3px #00000057;
+}
+
+#botaomodal {
+  display: flex;
+}
+
+#meumodal {
+  width: 71rem;
+  right: 19.5rem;
+}
+
+#tabela {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.confirmar,
+.fechar {
+  background: #961D14;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  margin-left: 321px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #3C0B08;
+  padding: 6px;
+}
+
+.fechar {
+  background-color: #3C0B08;
+  box-shadow: 0 0 5px #1b1b1b;
+}
+
+
+
+.table td,
+.table th {
+  padding: 0.2rem !important;
+}
+
+.input {
+  width: fit-content;
+  display: flex;
+  align-items: flex-start;
+  font-size: medium;
+  padding-top: 5rem;
+}
+
+.userninja {
+  width: 3rem;
+
+}
+
+#ninjafooter {
+  position: absolute;
+}
+
+.ninja2 {
+  width: 10rem;
+  position: absolute;
+  bottom: 0px;
+  left: 70rem;
+}
+/* ------- FOOTER / ICONS --------------------------------------------------------------------------------------- */
+footer {
+  background: black;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 3.1rem;
+  position: fixed;
+  bottom:0;
+  left:0;
+}
+
+.footericons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.insta0 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+}
+
+.git0 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.git0 a:hover,
+.insta0 a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.insta {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.git {
+  width: 50px;
+}
